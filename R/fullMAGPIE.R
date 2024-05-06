@@ -50,7 +50,7 @@ fullMAGPIE <- function(rev = numeric_version("0.1"), dev = "") {
              round = 3, # please dont increase rounding, this can create errors
              file = "f09_gdp_ppp_iso.csv")
   calcOutput("GDP",
-             unit = "constant 2005 US$MER",
+             unit = "constant 2017 US$MER",
              naming = "scenario",
              aggregate = FALSE,
              years = magYears,
